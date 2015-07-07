@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>Silly Simple</title>
+
+</head>
+<body>
+	<button id="hello">Hello World</button>
+	<button id="clr">Clear</button>
+	<div id="result"></div>
+
+<script src="js/zepto.min.js"></script>
+<script>
+$('#hello').click(function(){
+	$('#result').html("HELLO WORLD!!!");
+});
+
+$('#clr').click(function(){
+	$('#result').html("");
+});
+
+</script>
+</body>
+</html>
